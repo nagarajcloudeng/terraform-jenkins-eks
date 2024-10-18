@@ -1,6 +1,6 @@
 resource "aws_subnet" "private_zone1" {
   vpc_id            = aws_vpc.main.id
-  cidr_block        = "10.0.0.0/19"
+  cidr_block        = "11.0.0.0/19"
   availability_zone = local.zone1
 
   tags = {
